@@ -16,12 +16,5 @@ class RandomGeneratorService
         return $this->randomAdditionExercise->getExerciseText();
     }
 
-    public function evaluateAnswer($userAnswer)
-    {
-        $isCorrect = $this->randomAdditionExercise->evaluateAnswer($userAnswer);
-
-        // Return the evaluation result as JSON
-        echo json_encode(["isCorrect" => $isCorrect]);
-    }
 }
 

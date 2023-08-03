@@ -22,10 +22,4 @@ class RandomAdditionExercise {
         return "{$this->a} + {$this->b}";
     }
 
-    public function evaluateAnswer($userAnswer)
-    {
-        $userAnswer = (int) $userAnswer;
-        return $userAnswer === $this->correctAnswer;
-    }
 }
-?>
