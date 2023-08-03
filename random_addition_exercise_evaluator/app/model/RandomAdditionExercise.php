@@ -14,7 +14,6 @@ class RandomAdditionExercise {
     {
         $this->a = random_int(0, 1000);
         $this->b = random_int(0, 1000);
-        $this->correctAnswer = $this->a + $this->b;
     }
 
     public function getExerciseText()

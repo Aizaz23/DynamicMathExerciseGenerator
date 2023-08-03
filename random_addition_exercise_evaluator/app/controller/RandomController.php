@@ -14,6 +14,6 @@ class RandomController
     public function displayExercise()
     {
         $exerciseText = $this->randomGeneratorService->generateExerciseText();
-        include __DIR__ . '/../view/exercisegenerator.php';
+        include __DIR__ . '/../view/exercisegeneratorview.php';
     }
 }
